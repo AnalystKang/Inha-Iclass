@@ -50,7 +50,6 @@
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --pack-extension="$PWD/extension"
 mv -f extension.crx inha_iclass.crx
 ```
-서명키 `extension.pem`은 최초 1회 생성되며 git에 올리지 않는다(`.gitignore`).
 
 ## 이용 범위 및 저작권 고지
 
